@@ -1,0 +1,14 @@
+server:
+  port: 7900
+spring:
+  application:
+    name: provider-user
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://user:password123@192.168.0.114:8761/eureka
+
+logging:
+  level:
+    root: INFO
